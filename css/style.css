@@ -103,6 +103,9 @@ select {
 }
 
 @media (max-width: 986px) {
+  body {
+    width: 100%;
+  }
   .title-text {
     text-align: center;
   }
