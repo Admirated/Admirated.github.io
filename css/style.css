@@ -281,6 +281,13 @@ select {
     background: none;
     position: relative;
   }
+  .header .menu__logo {
+    display: block;
+  }
+  .header .menu__logo img {
+    width: 50px;
+    height: 50px;
+  }
   .header__container {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -325,10 +332,6 @@ select {
   }
   .menu__link {
     font-size: 24px;
-  }
-  .menu__logo img {
-    width: 50px;
-    height: 50px;
   }
 }
 
