@@ -154,7 +154,7 @@ select {
   z-index: 5;
 }
 
-.header .logo {
+.header .menu__logo {
   display: none;
 }
 
