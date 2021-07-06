@@ -133,7 +133,7 @@
       }
       &__item {
          height: 289px;
-         background: url('../assets/images/map_mini.png');
+         background: center / cover url('../assets/images/map_mini.png');
       }
    }
    .card-title {
