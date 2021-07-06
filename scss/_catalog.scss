@@ -1,0 +1,119 @@
+.page {
+   &__catalog {
+      background: #fff url('../assets/images/objects2.png');
+   }
+}
+.catalog {
+   &__wrapper {
+      padding: 57px 0 95px 30px;
+   }
+   &__card {
+      padding: 28px 0 0 0;
+      width: 257px;
+      height: 328px;
+      background-color: #fff;
+      border-radius: 8px;
+      filter: drop-shadow(0 4px 24px rgba(0,0,0,0.1));
+      text-align: center;
+      cursor: pointer;
+      &:hover {
+         .card__title {
+            color: #333
+         }
+      }
+   }
+   &__icon {
+      margin: 0 auto;
+      height: 150px;
+      &.last {
+         height: 130px;
+      }
+   }
+   &__title {
+      margin: 28px 0px 30px 0px;
+      font-family: Gotham;
+      font-weight: 500;
+      font-size: 16px;
+      color: #828282;
+   }
+   &__btn {
+      font-family: Roboto;
+      font-weight: 700;
+      transition: all 0.3s ease 0s;
+      color: #fff;
+      background-color: #2F80ED;
+      border-radius: 8px;
+      border: 1px solid #2F80ED;
+      padding: 14px 18px;
+      font-size: 16px;
+      line-height: 19px;
+      &:hover {
+         background-color: #F3F2E7;
+         color: #2F80ED;
+         border-color: #2F80ED;
+      }
+   }
+   &__cards-wrapper {
+      margin: 30px 0px 0px 0px;
+      justify-content: space-between;
+   }
+}
+
+@media (max-width: 986px) {
+   .catalog {
+      &__wrapper {
+         padding: 37px 10px 40px 10px;
+      }
+      &__card {
+         padding: 15px 0 0 0;
+         margin: 10px 5px 0px 5px;
+         width: 137px;
+         height: 175px;
+         background-color: #fff;
+         border-radius: 8px;
+         filter: drop-shadow(0 4px 24px rgba(0,0,0,0.1));
+         text-align: center;
+         cursor: pointer;
+         &:hover {
+            .card__title {
+               color: #333
+            }
+         }
+      }
+      &__icon {
+         margin: 0 auto;
+         height: 80px;
+         &.last {
+            height: 70px;
+         }
+      }
+      &__title {
+         margin: 12px 0px 12px 0px;
+         font-family: Gotham;
+         font-weight: 500;
+         font-size: 8.55px;
+         color: #828282;
+      }
+      &__btn {
+         font-family: Roboto;
+         font-weight: 700;
+         transition: all 0.3s ease 0s;
+         color: #fff;
+         background-color: #2F80ED;
+         border-radius: 8px;
+         border: 1px solid #2F80ED;
+         padding: 7.4px 9.6px;
+         font-size: 8.55px;
+         line-height: 10px;
+         &:hover {
+            background-color: #F3F2E7;
+            color: #2F80ED;
+            border-color: #2F80ED;
+         }
+      }
+      &__cards-wrapper {
+         margin: 22px 0px 0px 0px;
+         justify-content: center;
+      }
+   }
+}

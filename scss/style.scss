@@ -1,0 +1,128 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  background-color: #F3F2E7;
+  height: 100%;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1;
+  &._lock {
+     overflow: hidden;
+  }
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+a {
+   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.wrapper {
+   min-height: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.title-text {
+   font-family: Roboto;
+   font-style: 41px;
+   font-weight: 900;
+   line-height: 48px;
+   color: #BDBDBD;
+}
+
+.price-list {
+   .catalog__cards-wrapper {
+      justify-content: center;
+   }
+   .catalog__card {
+      margin-right: 35px;
+   }
+}
+
+@media (max-width: 986px) {
+   .title-text {
+      text-align: center;
+   }
+   .price-list {
+      .catalog__cards-wrapper {
+         justify-content: flex-start;
+      }
+      .catalog__card {
+         margin-right: 8px;
+      }
+   }
+   
+}
+
+@font-face {
+   font-family: Gotham;
+   src: url('../assets/fonts/Gotham-Medium.ttf');
+}
+@import "_header";
+@import "_advantages";
+@import "_catalog";
+@import "_production";
+@import "_about";
+@import "_request";
+@import "_partners";
+@import "_map";
+@import "_footer";
+@import "_details";
+

@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,500,700,900," rel="stylesheet">
+   
+   <link rel="icon" href="assets/images/logo.png">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Aliger</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container container">
+            <a href="/" class="header__logo">
+               <img src="assets/images/logo.png" alt="logo">
+            </a>
+            <div class="header__menu menu">
+               <div class="menu__icon">
+                  <span></span>
+               </div>
+            </div>
+            <nav class="menu__body">
+               <ul class="menu__list">
+                  <li class="blue"><a href="#" class="menu__link ">Каталог</a></li>
+                  <li class="orange"><a href="#" class="menu__link">Мы производим</a></li>
+                  <li class="blue"><a href="#" class="menu__link ">Прайс-лист</a></li>
+                  <li class="orange"><a href="#" class="menu__link">О компании</a></li>
+                  <li class="blue"><a href="#" class="menu__link ">Партнеры</a></li>
+                  <li class="orange"><a href="#" class="menu__link">Контакты</a></li>
+                  <li><a href="#" class="menu__link">Заказать звонок</a></li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+
+      <main class="page">
+         <section class="page__advantages advantages">
+            <div class="advantages__wrapper container">
+               <div class="advantages__body row align-items-center">
+                  <div class="advantages__item col-lg-6 col-xs-12 advantages__item-first">
+                     <h1>Мы производим трубы<br>диаметром 20 - 1000 мм</h1>
+                     <p class="regular-text">5 производственных линии. Короткие сроки производства</p>
+                     <a class="advantages__btn" href="#">Оставить заявку</a>
+                  </div>
+                  <div class="advantages__item col-lg-6 col-xs-12">
+                     <div class="advantages__images">
+                        <img src="assets/images/Ellipse 1.png" alt="ellips">
+                        <div class="advantages__mask">
+                           <img src="assets/images/Mask Group.png" alt="mask">
+                        </div>
+                        <div class="advantages__circle"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="advantages__bottom">
+                  <h2 class="title-text">Наши преимущества</h2>
+                  <div class="cards__wrapper row">
+                     <div class="advantages__card col-lg-3 col-xs-6">
+                        <img class="card__icon" src="assets/images/delivary-service.png" alt=Сервис">
+                        <h3 class="card__title">Сервис</h3>
+                        <p class="card__subtitle">подробнее</p>
+                     </div>
+                     <div class="advantages__card col-lg-3 col-xs-6">
+                        <img class="card__icon" src="assets/images/setting-spanner.png" alt="Монтаж">
+                        <h3 class="card__title">Монтаж</h3>
+                        <p class="card__subtitle">подробнее</p>
+                     </div>
+                     <div class="advantages__card col-lg-3 col-xs-6">
+                        <img class="card__icon" src="assets/images/box.png" alt="Комплектация">
+                        <h3 class="card__title">Комплектация</h3>
+                        <p class="card__subtitle">подробнее</p>
+                     </div>
+                     <div class="advantages__card col-lg-3 col-xs-6">
+                        <img class="card__icon" src="assets/images/money.png" alt="Продажа">
+                        <h3 class="card__title">Продажа</h3>
+                        <p class="card__subtitle">подробнее</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="catalog__details details">
+            <!-- <div class="details__wrapper container">
+               <div class="details__title">
+                  <h2 class="title-text">2-слойные гофрированные<br>трубы Корсис</h2>
+               </div>
+               <div class="details__cards-wrapper row">
+                  <div class="details__modal">
+                     <div class="modal__wrapper">
+                        <div class="modal__close">
+                           <span></span>
+                        </div>
+                        <div class="modal__title">
+                           <h3>Вид арматуры по типу присоединения к системе</h3>
+                        </div>
+                        <div class="modal__text">
+                           <h5>
+                              <strong>Тип присоединения — один из ключевых параметров при проектировании трубопроводной арматуры.</strong>Самыми популярными видами являются соединения:
+                           </h5>
+                           <h5>
+                              <strong>•	фланцевые;</strong><br>
+                              <strong>•	резьбовые муфтовые;</strong><br>
+                              <strong>•	штуцерные;</strong><br>
+                              <strong>•	приварные;</strong><br>
+                           </h5>
+                           <h5>Для существующей трубопроводной магистрали этот вопрос не актуальный, поскольку вариантов нет, их диктует сама система.</h5>
+                           <h5><strong>Фланцевый тип присоединения</strong></h5>
+                           <h5><strong>Вся арматура фланцевого типа различается по единственному признаку — форме фланцев.</strong> Они бывают круглыми, квадратными, треугольными. Два первых встречаются наиболее часто. Круглые фланцы универсальны, они подходят для любых давлений. Ограничением для применения квадратных фланцев является давление выше 20 атмосфер.
+                           </h5>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="details__card card col-lg-6 col-xs-12">
+                     <div class="card__icon">
+                        <img src="assets/images/details1_1.png" alt="Труба Корсис">
+                     </div>
+                     <div class="card__title">
+                        <h4>Безнапорные cистемы хозяйственно-бытовой<br> канализации, дождевой канализации</h4>
+                     </div>
+                  </div>
+                  <div class="details__card card col-lg-6 col-xs-12">
+                     <div class="card__icon">
+                        <img src="assets/images/details1_2.png" alt="Труба Корсис">
+                     </div>
+                     <div class="card__title">
+                        <h4>Системы водоотведения производственных стоков</h4>
+                     </div>
+                  </div>
+                  <div class="details__card card col-lg-6 col-xs-12">
+                     <div class="card__icon">
+                        <img src="assets/images/details1_3.png" alt="Труба Корсис">
+                     </div>
+                     <div class="card__title">
+                        <h4>Дренажные системы, вентиляционные системы</h4>
+                     </div>
+                  </div>
+                  <div class="details__card card col-lg-6 col-xs-12">
+                     <div class="card__icon">
+                        <img src="assets/images/details1_4.png" alt="Труба Корсис">
+                     </div>
+                     <div class="card__title">
+                        <h4>Сельское хозяйство: системы орошения</h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="details__btn">
+                  <a href="#">Скачать Прайс-лист</a>
+               </div>
+            </div> -->
+            <!-- <div class="details__wrapper container">
+               <div class="details__title">
+                  <h2 class="title-text">Запорная арматура</h2>
+               </div>
+               <div class="details__cards-wrapper row">
+                  <div class="details__modal">
+                     <div class="modal__wrapper">
+                        <div class="modal__close">
+                           <span></span>
+                        </div>
+                        <div class="modal__title">
+                           <h3>Вид арматуры по типу присоединения к системе</h3>
+                        </div>
+                        <div class="modal__text">
+                           <h5>
+                              <strong>Тип присоединения — один из ключевых параметров при проектировании трубопроводной арматуры.</strong>Самыми популярными видами являются соединения:
+                           </h5>
+                           <h5>
+                              <strong>•	фланцевые;</strong><br>
+                              <strong>•	резьбовые муфтовые;</strong><br>
+                              <strong>•	штуцерные;</strong><br>
+                              <strong>•	приварные;</strong><br>
+                           </h5>
+                           <h5>Для существующей трубопроводной магистрали этот вопрос не актуальный, поскольку вариантов нет, их диктует сама система.</h5>
+                           <h5><strong>Фланцевый тип присоединения</strong></h5>
+                           <h5><strong>Вся арматура фланцевого типа различается по единственному признаку — форме фланцев.</strong> Они бывают круглыми, квадратными, треугольными. Два первых встречаются наиболее часто. Круглые фланцы универсальны, они подходят для любых давлений. Ограничением для применения квадратных фланцев является давление выше 20 атмосфер.
+                           </h5>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="details__card card col-lg-6 col-xs-12">
+                     <div class="card__icon">
+                        <img src="assets/images/details2_1.png" alt="Труба Корсис">
+                     </div>
+                     <div class="card__title">
+                        <h4>Виды запорно-регулирующе арматуры для<br>водоснабжения</h4>
+                     </div>
+                  </div>
+                  <div class="details__card card col-lg-6 col-xs-12">
+                     <div class="card__icon">
+                        <img src="assets/images/details2_2.png" alt="Труба Корсис">
+                     </div>
+                     <div class="card__title">
+                        <h4>Вид арматуры по типу присоединения к системе</h4>
+                     </div>
+                  </div>
+                  <div class="details__card card col-lg-6 col-xs-12">
+                     <div class="card__icon">
+                        <img src="assets/images/details2_3.png" alt="Труба Корсис">
+                     </div>
+                     <div class="card__title">
+                        <h4>Классификация запорной арматуры<br>по способу регулировки потока</h4>
+                     </div>
+                  </div>
+                  <div class="details__card card col-lg-6 col-xs-12">
+                     <div class="card__icon">
+                        <img src="assets/images/details2_4.png" alt="Труба Корсис">
+                     </div>
+                     <div class="card__title">
+                        <h4>Задвижки фланцевые для газоснабжения</h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="details__btn">
+                  <a href="#">Скачать Прайс-лист</a>
+               </div>
+            </div> -->
+            <!-- <div class="details__wrapper container">
+               <div class="details__title">
+                  <h2 class="title-text">Полиэтиленовые трубы</h2>
+               </div>
+               <div class="details__cards-wrapper row">
+                  <div class="details__modal">
+                     <div class="modal__wrapper">
+                        <div class="modal__close">
+                           <span></span>
+                        </div>
+                        <div class="modal__title">
+                           <h3>Вид арматуры по типу присоединения к системе</h3>
+                        </div>
+                        <div class="modal__text">
+                           <h5>
+                              <strong>Тип присоединения — один из ключевых параметров при проектировании трубопроводной арматуры.</strong>Самыми популярными видами являются соединения:
+                           </h5>
+                           <h5>
+                              <strong>•	фланцевые;</strong><br>
+                              <strong>•	резьбовые муфтовые;</strong><br>
+                              <strong>•	штуцерные;</strong><br>
+                              <strong>•	приварные;</strong><br>
+                           </h5>
+                           <h5>Для существующей трубопроводной магистрали этот вопрос не актуальный, поскольку вариантов нет, их диктует сама система.</h5>
+                           <h5><strong>Фланцевый тип присоединения</strong></h5>
+                           <h5><strong>Вся арматура фланцевого типа различается по единственному признаку — форме фланцев.</strong> Они бывают круглыми, квадратными, треугольными. Два первых встречаются наиболее часто. Круглые фланцы универсальны, они подходят для любых давлений. Ограничением для применения квадратных фланцев является давление выше 20 атмосфер.
+                           </h5>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="details__card card col-lg-6 col-xs-12">
+                     <div class="card__icon">
+                        <img src="assets/images/details3_1.png" alt="Труба Корсис">
+                     </div>
+                     <div class="card__title">
+                        <h4>Сфера применение полиэтиленовых труб</h4>
+                     </div>
+                  </div>
+                  <div class="details__card card col-lg-6 col-xs-12">
+                     <div class="card__icon">
+                        <img src="assets/images/details3_2.png" alt="Труба Корсис">
+                     </div>
+                     <div class="card__title">
+                        <h4>Плотность полиэтилена</h4>
+                     </div>
+                  </div>
+                  <div class="details__card card col-lg-6 col-xs-12">
+                     <div class="card__icon">
+                        <img src="assets/images/details3_3.png" alt="Труба Корсис">
+                     </div>
+                     <div class="card__title">
+                        <h4>Диаметр полиэтиленовых труб и что такое SDR</h4>
+                     </div>
+                  </div>
+                  <div class="details__card card col-lg-6 col-xs-12">
+                     <div class="card__icon">
+                        <img src="assets/images/details3_4.png" alt="Труба Корсис">
+                     </div>
+                     <div class="card__title">
+                        <h4>Пример маркировки ПЭ трубы</h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="details__btn">
+                  <a href="#">Скачать Прайс-лист</a>
+               </div>
+            </div> -->
+            <!-- <div class="details__wrapper container">
+               <div class="details__title">
+                  <h2 class="title-text">Фитинги</h2>
+               </div>
+               <div class="details__cards-wrapper row">
+                  <div class="details__modal">
+                     <div class="modal__wrapper">
+                        <div class="modal__close">
+                           <span></span>
+                        </div>
+                        <div class="modal__title">
+                           <h3>Вид арматуры по типу присоединения к системе</h3>
+                        </div>
+                        <div class="modal__text">
+                           <h5>
+                              <strong>Тип присоединения — один из ключевых параметров при проектировании трубопроводной арматуры.</strong>Самыми популярными видами являются соединения:
+                           </h5>
+                           <h5>
+                              <strong>•	фланцевые;</strong><br>
+                              <strong>•	резьбовые муфтовые;</strong><br>
+                              <strong>•	штуцерные;</strong><br>
+                              <strong>•	приварные;</strong><br>
+                           </h5>
+                           <h5>Для существующей трубопроводной магистрали этот вопрос не актуальный, поскольку вариантов нет, их диктует сама система.</h5>
+                           <h5><strong>Фланцевый тип присоединения</strong></h5>
+                           <h5><strong>Вся арматура фланцевого типа различается по единственному признаку — форме фланцев.</strong> Они бывают круглыми, квадратными, треугольными. Два первых встречаются наиболее часто. Круглые фланцы универсальны, они подходят для любых давлений. Ограничением для применения квадратных фланцев является давление выше 20 атмосфер.
+                           </h5>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="details__card card col-lg-6 col-xs-12">
+                     <div class="card__icon">
+                        <img src="assets/images/details4_1.png" alt="Труба Корсис">
+                     </div>
+                     <div class="card__title">
+                        <h4>ПЭ фитинги и тройники</h4>
+                     </div>
+                  </div>
+                  <div class="details__card card col-lg-6 col-xs-12">
+                     <div class="card__icon">
+                        <img src="assets/images/details4_2.png" alt="Труба Корсис">
+                     </div>
+                     <div class="card__title">
+                        <h4>Фитинги для металлических труб</h4>
+                     </div>
+                  </div>
+                  <div class="details__card card col-lg-6 col-xs-12">
+                     <div class="card__icon">
+                        <img src="assets/images/details4_3.png" alt="Труба Корсис">
+                     </div>
+                     <div class="card__title">
+                        <h4>Фитинги для металлопластиковых труб</h4>
+                     </div>
+                  </div>
+                  <div class="details__card card col-lg-6 col-xs-12">
+                     <div class="card__icon">
+                        <img src="assets/images/details4_4.png" alt="Труба Корсис">
+                     </div>
+                     <div class="card__title">
+                        <h4>Фитинги для полипропиленовых труб</h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="details__btn">
+                  <a href="#">Скачать Прайс-лист</a>
+               </div>
+            </div> -->
+         </section>
+         <section class="page__catalog catalog">
+            <div class="catalog__wrapper container">
+               <h2 class="title-text">Каталог продукции</h2>
+                  <div class="catalog__cards-wrapper row">
+                     <div class="catalog__card col-lg-3 col-xs-6">
+                        <img class="catalog__icon" src="assets/images/image 14.png" alt=Сервис">
+                        <h3 class="catalog__title">Полиэтиленовые трубы</h3>
+                        <a href="#" class="catalog__btn">Подробнее</a>
+                     </div>
+                     <div class="catalog__card col-lg-3 col-xs-6">
+                        <img class="catalog__icon" src="assets/images/image 26.png" alt="Монтаж">
+                        <h3 class="catalog__title">Фитинги</h3>
+                        <a href="#" class="catalog__btn">Подробнее</a>
+                     </div>
+                     <div class="catalog__card col-lg-3 col-xs-6">
+                        <img class="catalog__icon" src="assets/images/image 27.png" alt="Комплектация">
+                        <h3 class="catalog__title">Запорная арматура</h3>
+                        <a href="#" class="catalog__btn">Подробнее</a>
+                     </div>
+                     <div class="catalog__card col-lg-3 col-xs-6">
+                        <img class="catalog__icon last" src="assets/images/image 28.png" alt="Продажа">
+                        <h3 class="catalog__title">2-слойные гофрированные<br>трубы Корсис</h3>
+                        <a href="#" class="catalog__btn">Подробнее</a>
+                     </div>
+                  </div>
+            </div>
+         </section>
+         <section class="page__production production">
+            <div class="production__wrapper container">
+               <h2 class="title-text">Мы производим</h2>
+                  <div class="production__cards-wrapper row">
+                     <div class="production__card col-lg-4 col-xs-12">
+                        <img class="production__icon" src="assets/images/production_0.png" alt="Трубы для водопровода">
+                        <h3 class="production__title">Полиэтиленовые трубы для водопровода</h3>
+                     </div>
+                     <div class="production__card col-lg-4 col-xs-12">
+                        <img class="production__icon" src="assets/images/production_1.png" alt="Фитинги">
+                        <h3 class="production__title">Фитинги</h3>
+                     </div>
+                     <div class="production__card col-lg-4 col-xs-12">
+                        <img class="production__icon" src="assets/images/production_2.png" alt="Трубы для газа">
+                        <h3 class="production__title">Полиэтиленовые трубы для Газа</h3>
+                     </div>
+                  </div>
+            </div>
+         </section>
+         <section class="page__about about">
+            <div class="about__wrapper container">
+               <h2 class="title-text">О компании</h2>
+               <div class="about__body row align-items-center">
+                  <div class="about__item col-lg-6 col-xs-12 about__item-first">
+                     <p class="regular-text">TOO «Aliqer Sauda Company» - это современное, динамично развивающееся Казахстанское предприятие, осуществляющее поставку материалов и оборудования для обеспечения водоснабжения и строительства. TOO «Aliqer Sauda Company» предлагает системный подход 
+                        к решению строительных задач и комплексные решения по комплектации материалами для монтажа трубопроводов из пластика. </p>
+                     <p class="regular-text">Наша компания готова предложить Вам услуги по поставке оборудования для подачи воды, орошения, бурения и комплектующие материалы к ним. Вся продукция имеет необходимые сертификаты качества системы ГОСТ, сертификаты соответствия, а также санитарно-эпидемиологические заключения. Компания TOO «Aliqer Sauda Company» работает <ins>по следующим направлениям деятельности</ins>.</p>
+                  </div>
+                  <div class="about__item col-lg-6 col-xs-12">
+                     <div class="about__images">
+                        <div class="mainimg">
+                           <img src="assets/images/about_main.png" alt="В комнате сидят люди">
+                        </div>
+                        <div class="about__mask">
+                           <img src="assets/images/about_mask.png" alt="mask">
+                        </div>
+                        <div class="about__circle"></div>
+                        <div class="about__rectangle"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="price-list">
+            <!-- <div class="catalog__wrapper container">
+               <h2 class="title-text">Прайс-лист</h2>
+                  <div class="catalog__cards-wrapper row">
+                     <div class="catalog__card col-lg-4 col-xs-6">
+                        <img class="catalog__icon" src="assets/images/image 14.png" alt=Сервис">
+                        <h3 class="catalog__title">Полиэтиленовые трубы</h3>
+                        <a href="#" class="catalog__btn">Скачать</a>
+                     </div>
+                     <div class="catalog__card col-lg-4 col-xs-6">
+                        <img class="catalog__icon" src="assets/images/image 26.png" alt="Монтаж">
+                        <h3 class="catalog__title">Фитинги</h3>
+                        <a href="#" class="catalog__btn">Скачать</a>
+                     </div>
+                     <div class="catalog__card col-lg-4 col-xs-6">
+                        <img class="catalog__icon" src="assets/images/image 27.png" alt="Комплектация">
+                        <h3 class="catalog__title">Запорная арматура</h3>
+                        <a href="#" class="catalog__btn">Скачать</a>
+                     </div>
+                  </div>
+            </div> -->
+         </section>
+         <section class="page__request request">
+            <div class="request__wrapper container">
+               <div class="request__body row">
+                  <div class="request__item col-lg-6 col-xs-0 about__item-first">
+                     <div class="request__image">
+                        <img src="assets/images/request_main.png" alt="Девушка оставляет заявку">
+                     </div>
+                  </div>
+                  <div class="request__item col-lg-6 col-xs-12 about__item-second">
+                     <div class="request__body">
+                        <form action="#" method="POST" class="request__form">
+                           <h3>Оставьте заявку</h3>
+                           <p class="regular-text">И получите лучшие скидки до 15%, а также консультация<br>по всем товарам с подбором альтернативы</p>
+                           <div class="request__group">
+                              <input type="text" id="username" required><br>
+                              <span class="bar"></span>
+                              <label for="username">Имя</label>
+                           </div>
+                           <div class="request__group">
+                              <input type="tel" id="phone" required><br>
+                              <span class="bar"></span>
+                              <label for="phone">Телефон</label>
+                           </div>
+                           <div class="request__btn-wrapper">
+                              <a href="javascript: document.search.submit();" class="request__btn">Оставить заявку</a>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="page__partners partners">
+            <div class="partners__wrapper container">
+               <div class="partners__top">
+                  <div class="partners__item partner-text">
+                     <h2 class="title-text">Партнеры</h2>
+                  </div>
+                  <div class="partners__item">
+                     <div class="scrollbar">
+                        <div class="scrollbar__main"></div>
+                        <div class="scrollbar__small"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="partners__bottom">
+                  <div class="images-wrapper row">
+                     <div class="partners__logo col-lg-2 col-xs-6 col-sm-6">
+                        <img src="assets/images/logo1.png" alt="partner logo">
+                     </div>
+                     <div class="partners__logo col-lg-2 col-xs-6 col-sm-6">
+                        <img src="assets/images/logo2.png"" alt="partner logo">
+                     </div>
+                     <div class="partners__logo col-lg-2 col-xs-6 col-sm-6">
+                        <img src="assets/images/logo3.png"" alt="partner logo">
+                     </div>
+                     <div class="partners__logo col-lg-2 col-xs-6 col-sm-6">
+                        <img src="assets/images/logo4.png"" alt="partner logo">
+                     </div>
+                     <div class="partners__logo col-lg-2 col-xs-6 col-sm-6">
+                        <img src="assets/images/logo5.png"" alt="partner logo">
+                     </div>
+                     <div class="partners__logo col-lg-2 col-xs-6 col-sm-6">
+                        <img src="assets/images/logo6.png"" alt="partner logo">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="page__map map">
+            <div class="map__wrapper">
+               <div class="map__container container">
+                  <div class="map__item"></div>
+                  <div class="map__card">
+                     <div class="card__item-wrapper">
+                        <div class="card-item">
+                           <div class="card__text-wrapper">
+                              <h3 class="card-title">Адрес:</h3>
+                              <p class="regular-text">г.Нур-Султан<br>ул. А.Бокейхана 40</p>
+                           </div>
+                           <div class="card__text-wrapper">
+                              <h3 class="card-title">Время работы:</h3>
+                              <p class="regular-text">Пн - Пт с 08:00 до 18:00<br>Сб - Вс - выходные</p>
+                           </div>
+                        </div>
+                        <div class="card-item">
+                           <div class="card__text-wrapper">
+                              <h3 class="card-title">Телефон</h3>
+                              <p class="regular-text">+7 (705) 993 24 52</p>
+                           </div>
+                           <div class="card__text-wrapper">
+                              <h3 class="card-title">WhatsApp</h3>
+                              <p class="regular-text">+7 (701) 330 29 22</p>
+                           </div>
+                           <div class="card__text-wrapper">
+                              <h3 class="card-title">Наша почта:</h3>
+                              <p class="card__email">aligersauda@gmail.com</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card-call">
+                        <h3>Заказать обратный звонок</h3>
+                     </div>
+                     <div class="card__input-wrapper">
+                        <input type="text" name="username" class="card__input" placeholder="Имя">
+                        <input type="tel" name="phone" class="card__input" placeholder="Телефон">
+                     </div>
+                     <div class="card-btn-wrapper">
+                        <a class="card-btn" href="#">Отправить</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <footer class="footer">
+            <div class="footer__wrapper">
+               <h5>Сделано в Factum</h5>
+            </div>
+         </footer>
+      </main>
+   </div>
+   <script src="js/script.js"></script>
+</body>
+</html>

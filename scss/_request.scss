@@ -1,0 +1,232 @@
+.page {
+   &__request {
+      margin: 0 auto;
+      background: center / cover no-repeat url('../assets/images/request_bg.png');
+   }
+}
+.request {
+   &__wrapper {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1366px;
+      min-height: 461px;
+      max-height: 530px;
+   }
+   &__item {
+      padding: 0;
+   }
+   &__image {
+      position: relative;
+      & img {
+         position: absolute;
+         top: -67px;
+         left: 230px;
+      }
+   }
+   &__body {
+      h3 {
+         margin: 5px 0px 26px 0px;
+         font-family: Roboto;
+         font-weight: 700;
+         font-size: 36px;
+         line-height: 41.19px;
+         color: #fff;
+      }
+      .regular-text {
+         color: #fff;
+         margin-bottom: 26px;
+         line-height: 27.2px;
+      }
+      label {
+         color: #fff;
+      }
+   }
+   &__btn-wrapper {
+      margin: 30px 0px 0px 0px;
+   }
+   &__btn {
+      transition: all 0.3s ease 0s;
+      color: #333;
+      background-color: #fff;
+      border-radius: 8px;
+      border: 1px solid #fff;
+      padding: 14px 18px;
+      font-size: 16px;
+      line-height: 19px;
+      font-weight: 700;
+      &:hover {
+         background: none;
+         color: #fff;
+         border-color: #fff;
+      }
+   }
+   &__group {
+      position: relative;
+      margin-bottom: 10px;
+   }
+   input {
+      color: #fff;
+      background: none;
+      font-size: 16px;
+      padding: 10px;
+      display: block;
+      width: 350px;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      &:focus {
+         outline: none;
+      }
+   }
+   label {
+      color: #fff;
+      font-size: 16px;
+      position: absolute;
+      pointer-events: none;
+      top: 5px;
+      transition: 0.2s ease all;
+      -moz-transition: 0.2s ease all;
+      -webkit-transition: 0.2s ease all;
+   }
+   input:focus ~ label, input:valid ~ label {
+      top: -10px;
+      font-size: 16px;
+      color: #fff;
+   }
+   .bar {
+      position: relative;
+      display: block;
+      width: 350px;
+   }
+   .bar:before, .bar:after {
+      content: "";
+      height: 2px;
+      width: 0;
+      bottom: 15.5px;
+      position: absolute;
+      background: #fff;
+      transition: 0.2s ease all;
+      -moz-transition: 0.2s ease all;
+      -webkit-transition: 0.2s ease all;
+   }
+   .bar:before {
+      left: 50%;
+   }
+   .bar:after {
+      right: 50%;
+   }
+   input:focus ~ .bar:before,
+   input:focus ~ .bar:after {
+   width: 50%;
+   }
+   .about {
+      &__item-first {
+      }
+      &__item-second {
+         margin-left: 85%;
+         width: 435px;
+         height: 316px;
+      }
+   }
+}
+
+@media (max-width: 986px) {
+   .page {
+      &__request {
+         margin: 0 auto;
+         background: center / cover no-repeat url('../assets/images/request_phones.png');
+      }
+   }
+   .request {
+      &__wrapper {
+         display: flex;
+         justify-content: center;
+         width: 100%;
+         max-width: 980px;
+         min-height: 315px;
+         max-height: 330px;
+      }
+      &__body {
+         h3 {
+            margin: 0px 0px 15px 0px;
+            font-family: Roboto;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 23.44px;
+            color: #fff;
+         }
+         .regular-text {
+            color: #fff;
+            margin-bottom: 14px;
+            font-size: 12px;
+            line-height: 20.4px;
+         }
+         label {
+            color: #fff;
+         }
+      }
+      .about {
+         &__item-first {
+            display: none;
+         }
+         &__item-second {
+            margin: 40px 0px 0px 15px;
+            width: 290px;
+            height: 235px;
+         }
+      }
+      .bar {
+         width: 233px;
+      }
+      input {
+         color: #fff;
+         background: none;
+         font-size: 16px;
+         padding: 6px;
+         display: block;
+         width: 233px;
+         border: none;
+         border-bottom: 1px solid #ccc;
+         &:focus {
+            outline: none;
+         }
+      }
+      label {
+         color: #fff;
+         font-size: 12px;
+         position: absolute;
+         pointer-events: none;
+         top: 5px;
+         transition: 0.2s ease all;
+         -moz-transition: 0.2s ease all;
+         -webkit-transition: 0.2s ease all;
+      }
+      input:focus ~ label, input:valid ~ label {
+         top: -10px;
+         font-size: 12px;
+         color: #fff;
+      }
+      &__group {
+         position: relative;
+         margin-bottom: 0px;
+      }
+      &__btn-wrapper {
+         margin: 10px 0px 0px 0px;
+      }
+      &__btn {
+         transition: all 0.3s ease 0s;
+         color: #333;
+         background-color: #fff;
+         border-radius: 8px;
+         border: 1px solid #fff;
+         padding: 10px 12px;
+         font-size: 12px;
+         line-height: 14.06px;
+         font-weight: 700;
+         &:hover {
+            background: none;
+            color: #fff;
+            border-color: #fff;
+         }
+      }
+   }
+}
