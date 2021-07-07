@@ -102,7 +102,7 @@ select {
   margin-right: 35px;
 }
 
-@media (max-width: 986px) {
+@media (max-width: 769px) {
   body {
     width: 100%;
   }
@@ -143,9 +143,9 @@ select {
   display: -ms-flexbox;
   display: flex;
   padding: 10px 0 10px 0;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -214,7 +214,7 @@ select {
   font-size: 20px;
 }
 
-@media (min-width: 986px) {
+@media (min-width: 769px) {
   .menu__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -229,7 +229,7 @@ select {
   }
 }
 
-@media (max-width: 986px) {
+@media (max-width: 769px) {
   .menu__icon {
     z-index: 5;
     display: block;
@@ -468,7 +468,7 @@ select {
   font-size: 14px;
 }
 
-@media (max-width: 986px) {
+@media (max-width: 769px) {
   .page__advantages {
     background: top/60% no-repeat url("../assets/images/objects_mobile.png");
     padding: 17px 0 0 0;
@@ -623,7 +623,7 @@ select {
           justify-content: space-between;
 }
 
-@media (max-width: 986px) {
+@media (max-width: 769px) {
   .catalog__wrapper {
     padding: 37px 10px 40px 10px;
   }
@@ -722,7 +722,7 @@ select {
   color: #333;
 }
 
-@media (max-width: 986px) {
+@media (max-width: 769px) {
   .production__wrapper {
     padding: 57px 10px 40px 10px;
   }
@@ -861,7 +861,7 @@ select {
   z-index: 2;
 }
 
-@media (max-width: 986px) {
+@media (max-width: 769px) {
   .about__body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1079,7 +1079,7 @@ select {
   height: 316px;
 }
 
-@media (max-width: 986px) {
+@media (max-width: 769px) {
   .page__request {
     margin: 0 auto;
     background: center/cover no-repeat url("../assets/images/request_phones.png");
@@ -1227,7 +1227,7 @@ select {
   background-color: #2F80ED;
 }
 
-@media (max-width: 986px) {
+@media (max-width: 769px) {
   .scrollbar {
     display: none;
   }
@@ -1438,7 +1438,7 @@ select {
   color: #2F80ED;
 }
 
-@media (max-width: 986px) {
+@media (max-width: 769px) {
   .map__wrapper {
     background: none;
     height: 599px;
@@ -1754,7 +1754,7 @@ select {
           transform: rotate(-45deg);
 }
 
-@media (max-width: 986px) {
+@media (max-width: 769px) {
   .details__title {
     padding-left: 20px;
   }
