@@ -96,7 +96,10 @@ select {
    }
 }
 
-@media (max-width: 986px) {
+@media (max-width: 769px) {
+   body {
+      width: 100%;
+   }
    .title-text {
       text-align: center;
    }

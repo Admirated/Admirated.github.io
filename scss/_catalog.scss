@@ -1,6 +1,6 @@
 .page {
    &__catalog {
-      background: #fff url('../assets/images/objects2.png');
+      background: #fff url('../assets/images/objects2.webp');
    }
 }
 .catalog {
@@ -59,7 +59,7 @@
    }
 }
 
-@media (max-width: 986px) {
+@media (max-width: 769px) {
    .catalog {
       &__wrapper {
          padding: 37px 10px 40px 10px;

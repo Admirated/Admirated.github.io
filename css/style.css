@@ -345,7 +345,7 @@ select {
 
 .advantages__body {
   padding-left: 20px;
-  background-image: url("../assets/images/objects.png");
+  background-image: url("../assets/images/objects.webp");
   z-index: -4;
 }
 
@@ -556,7 +556,7 @@ select {
 }
 
 .page__catalog {
-  background: #fff url("../assets/images/objects2.png");
+  background: #fff url("../assets/images/objects2.webp");
 }
 
 .catalog__wrapper {
@@ -1262,7 +1262,7 @@ select {
 }
 
 .map__wrapper {
-  background: center/cover url("../assets/images/map.png");
+  background: center/cover url("../assets/images/map.webp");
   height: 600px;
   width: 100%;
   padding: 57px 0 95px 30px;

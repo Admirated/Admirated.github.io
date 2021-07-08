@@ -11,7 +11,7 @@
    }
    &__body {
       padding-left: 20px;
-      background-image: url('../assets/images/objects.png');
+      background-image: url('../assets/images/objects.webp');
       z-index: -4;
    }
    &__item {
@@ -124,10 +124,9 @@
 }
 
 
-@media (max-width: 986px) {
+@media (max-width: 769px) {
    .page {
       &__advantages {
-         // background: top/60% no-repeat url('../assets/images/objects.png');
          background: top/60% no-repeat url('../assets/images/objects_mobile.png');
          padding: 17px 0 0 0;
       }

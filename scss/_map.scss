@@ -4,7 +4,7 @@
 }
 .map {
    &__wrapper {
-      background: center / cover url('../assets/images/map.png');
+      background: center / cover url('../assets/images/map.webp');
       height: 600px;
       width: 100%;
       padding: 57px 0 95px 30px;
@@ -115,7 +115,7 @@
    }
 }
 
-@media (max-width: 986px) {
+@media (max-width: 769px) {
    .map {
       &__wrapper {
          background: none;
